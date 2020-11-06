@@ -3,8 +3,6 @@
 // Include our project headers
 #include "CaesarCipher.hpp"
 
-class CaesarCipher
-{
-    public:
-        CaesarCipher(const size_t key);
-};
+CaesarCipher::CaesarCipher(const size_t key)
+: key_ {key}
+{}

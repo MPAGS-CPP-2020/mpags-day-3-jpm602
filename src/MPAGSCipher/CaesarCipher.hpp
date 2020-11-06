@@ -7,7 +7,8 @@
 class CaesarCipher
 {
     public:
-        const size_t key;
+        CaesarCipher(const size_t key);
+        const size_t key_;
 };
 
 #endif
