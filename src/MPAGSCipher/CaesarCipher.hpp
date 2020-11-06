@@ -7,8 +7,9 @@
 class CaesarCipher
 {
     public:
-        CaesarCipher(const size_t key);
-        const size_t key_;
+        explicit CaesarCipher(const size_t key);
+        explicit CaesarCipher(const std::string key);
+        size_t key_;
 };
 
 #endif
